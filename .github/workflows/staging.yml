@@ -24,10 +24,9 @@ jobs:
   
   criar-nova-release-actions:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-    - uses: actions/checkout@v3
-    - uses: ncipollo/release-action@v1
+    - uses: actions/checkout@v2
+
+    - uses: iamkubi/github-release@2.0
       with:
-        artifacts: "release.tar.gz,foo/*.txt"
+        token: ${{ secrets.GITHUB_TOKEN }}
