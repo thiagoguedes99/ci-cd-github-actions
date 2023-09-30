@@ -1,0 +1,21 @@
+
+name: criar release
+
+on:
+  push:
+    branches:
+      - staging
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  criar-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: google-github-actions/release-please-action@v3
+        with:
+          release-type: node
+          default-branch: main
+          package-name: ci-cd-github-actions
