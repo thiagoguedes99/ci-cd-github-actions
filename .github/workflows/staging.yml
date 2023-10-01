@@ -19,11 +19,12 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
       
-      - name: create release with last commit
-        if: steps.changelog.outputs.skipped == 'false'
-        uses: ncipollo/release-action@v1
+      - name: Create Release
+        uses: actions/create-release@v1
+        if: ${{ steps.changelog.outputs.skipped == 'false' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.github_token }}
         with:
-          token: ${{ secrets.CHANGELOG_RELEASE }}
-          tag: ${{ steps.changelog.outputs.tag }}
-          name: ${{ steps.changelog.outputs.tag }}
+          tag_name: ${{ steps.changelog.outputs.tag }}
+          release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
