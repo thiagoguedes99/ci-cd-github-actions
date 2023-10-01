@@ -1,4 +1,13 @@
-# 0.2.0 (2023-10-01)
+# [1.0.0](https://github.com/thiagoguedes99/ci-cd-github-actions/compare/v0.2.0...v1.0.0) (2023-10-01)
+
+
+### Features
+
+* space ([072ac64](https://github.com/thiagoguedes99/ci-cd-github-actions/commit/072ac6415919fe362274f59eda4faff0ca2840c1))
+
+
+
+# [0.2.0](https://github.com/thiagoguedes99/ci-cd-github-actions/compare/57cd1fad682e9bc095d1dde039153476c1f63764...v0.2.0) (2023-10-01)
 
 
 ### Bug Fixes
