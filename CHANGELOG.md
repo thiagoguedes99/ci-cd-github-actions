@@ -1,3 +1,20 @@
+# [2.0.0](https://github.com/thiagoguedes99/ci-cd-github-actions/compare/v1.0.0...v2.0.0) (2023-10-01)
+
+
+### Bug Fixes
+
+* correction lint command ([53d18f6](https://github.com/thiagoguedes99/ci-cd-github-actions/commit/53d18f6120d81001c07aa60ba4d2c1878b810aea))
+
+
+* feat(yml)!: change yml's of github actions ([48b17cb](https://github.com/thiagoguedes99/ci-cd-github-actions/commit/48b17cb3f2408e146ba0b644afe5efae20146e12))
+
+
+### BREAKING CHANGES
+
+* release and changelog only modify on deploy in production
+
+
+
 # [1.0.0](https://github.com/thiagoguedes99/ci-cd-github-actions/compare/v0.2.0...v1.0.0) (2023-10-01)
 
 
@@ -7,7 +24,7 @@
 
 
 
-# [0.2.0](https://github.com/thiagoguedes99/ci-cd-github-actions/compare/57cd1fad682e9bc095d1dde039153476c1f63764...v0.2.0) (2023-10-01)
+# [0.2.0](https://github.com/thiagoguedes99/ci-cd-github-actions/compare/v0.0.1...v0.2.0) (2023-10-01)
 
 
 ### Bug Fixes
