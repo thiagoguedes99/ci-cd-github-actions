@@ -6,28 +6,24 @@ on:
     branches:
       - staging
 
-permissions:
-  contents: write
-  pull-requests: write
-
 jobs:
-  criar-release:
+  changelog:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
-      - uses: google-github-actions/release-please-action@v3
-        with:
-          release-type: node
-          default-branch: main
-          token: ${{ secrets.GITHUB_TOKEN }}
-          package-name: ci-cd-github-actions
-  
-  criar-nova-release-actions:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
 
-    - uses: iamkubi/github-release@2.0
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        tag: v0.0.1
+      - name: conventional Changelog Action
+        id: changelog
+        uses: TriPSs/conventional-changelog-action@v3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: create release with last commit
+        if: steps.changelog.outputs.skipped == 'false'
+        uses: ncipollo/release-action@v1
+        with:
+          token: ${{ secrets.CHANGELOG_RELEASE }}
+          tag: ${{ steps.changelog.outputs.tag }}
+          name: ${{ steps.changelog.outputs.tag }}
+          body: ${{ steps.changelog.outputs.clean_changelog }}
