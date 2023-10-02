@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net" modified="2023-10-02T15:54:23.143Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="tm8yagq7biTurjZKp5uK" version="21.6.6" type="device">
+  <diagram name="Página-1" id="5odMq-n0ZemLuO_Dtkjj">
+    <mxGraphModel dx="1834" dy="750" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="42Okq2WVj8bxldONq4fC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="42Okq2WVj8bxldONq4fC-1" target="42Okq2WVj8bxldONq4fC-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-7" value="&amp;nbsp;PR&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="42Okq2WVj8bxldONq4fC-5" vertex="1" connectable="0">
+          <mxGeometry x="-0.0575" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="42Okq2WVj8bxldONq4fC-1" target="42Okq2WVj8bxldONq4fC-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="320" />
+              <mxPoint x="-120" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-25" value="&amp;nbsp;1 - Create feature branch&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="42Okq2WVj8bxldONq4fC-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.012" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.492;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42Okq2WVj8bxldONq4fC-1" target="epGRzmZYMyJD93x7Y_1z-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-26" value="Deploy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="epGRzmZYMyJD93x7Y_1z-25">
+          <mxGeometry x="0.3895" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-1" value="Develop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="120" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="42Okq2WVj8bxldONq4fC-2" target="42Okq2WVj8bxldONq4fC-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-10" value="&amp;nbsp;PR&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="42Okq2WVj8bxldONq4fC-9" vertex="1" connectable="0">
+          <mxGeometry x="-0.0972" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.495;entryY=0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42Okq2WVj8bxldONq4fC-2" target="epGRzmZYMyJD93x7Y_1z-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-24" value="Deploy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="epGRzmZYMyJD93x7Y_1z-23">
+          <mxGeometry x="0.103" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-2" value="Staging" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="400" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="42Okq2WVj8bxldONq4fC-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="390" />
+              <mxPoint x="820" y="610" />
+              <mxPoint x="130" y="610" />
+              <mxPoint x="130" y="440" />
+              <mxPoint x="150" y="440" />
+            </Array>
+            <mxPoint x="150" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-14" value="&amp;nbsp;PR&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="42Okq2WVj8bxldONq4fC-13" vertex="1" connectable="0">
+          <mxGeometry x="0.1004" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="42Okq2WVj8bxldONq4fC-3" target="epGRzmZYMyJD93x7Y_1z-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="770" y="330" />
+              <mxPoint x="970" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-5" value="&amp;nbsp;1 - Create hotfix branch&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="epGRzmZYMyJD93x7Y_1z-3">
+          <mxGeometry x="0.3628" relative="1" as="geometry">
+            <mxPoint x="-48" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="42Okq2WVj8bxldONq4fC-3" target="epGRzmZYMyJD93x7Y_1z-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-22" value="Deploy" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="epGRzmZYMyJD93x7Y_1z-17">
+          <mxGeometry x="0.0112" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-3" value="Master" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="680" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="42Okq2WVj8bxldONq4fC-4" target="42Okq2WVj8bxldONq4fC-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-23" value="&amp;nbsp;2 - PR&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="42Okq2WVj8bxldONq4fC-22" vertex="1" connectable="0">
+          <mxGeometry x="-0.0437" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-4" value="Feature-branch" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
+          <mxGeometry x="-180" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-6" value="&lt;h1 style=&quot;font-size: 21px;&quot;&gt;Pull Request&lt;/h1&gt;&lt;p&gt;Feito PR da develop para a stagin, vai rodar a action de staging.yml em cima do PR para validar e fazer a liberação de merge.&lt;/p&gt;Após a develop ser mergeada na stagin a action de staging.yml vai rodar novamente, mas agora&amp;nbsp; em cima da branch stagin." style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="250" y="150" width="140" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-8" value="&lt;h1 style=&quot;font-size: 21px;&quot;&gt;Pull Request&lt;/h1&gt;&lt;p&gt;Feito PR da staging para a master, isso não vai disparar nenhuma action.&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Somente após o merge para a master que vai rodar a action de master.yml, e caso o primeiro step do deploy der sucesso, em seguida vai rodar o step de criação de release e change log.&lt;/span&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="530" y="130" width="140" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-15" value="&lt;h1 style=&quot;font-size: 21px;&quot;&gt;Pull Request&lt;/h1&gt;&lt;p&gt;Feito PR da master para a develop, isso irá atualizar no package.json na última versão que foi para produção e junto a atualização do arquivo de changelog.&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="370" y="630" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="42Okq2WVj8bxldONq4fC-27" value="&lt;h1 style=&quot;font-size: 21px;&quot;&gt;Pull Request&lt;/h1&gt;&lt;p style=&quot;&quot;&gt;Feito PR da feature-branch para develop, vai rodar a action de develop.yml em cima do PR para validar e fazer a liberação de merge.&lt;/p&gt;&lt;p style=&quot;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Após a feature-branch ser mergeada na develop a action de develop.yml vai rodar novamente, mas agora&amp;nbsp; em cima da branch develop.&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="400" width="140" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="epGRzmZYMyJD93x7Y_1z-1" target="42Okq2WVj8bxldONq4fC-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="970" y="100" />
+              <mxPoint x="460" y="100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-8" value="&amp;nbsp;2.1 - test hotfix branch on homolog ( PR )&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="epGRzmZYMyJD93x7Y_1z-7">
+          <mxGeometry x="-0.1154" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="epGRzmZYMyJD93x7Y_1z-1" target="42Okq2WVj8bxldONq4fC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-10" value="&amp;nbsp;2.2 - PR&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="epGRzmZYMyJD93x7Y_1z-9">
+          <mxGeometry x="-0.2835" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-1" value="hotfix" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="910" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-14" value="ambiente&lt;br&gt;Develop" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-15" value="ambiente&lt;br&gt;Homolog" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="epGRzmZYMyJD93x7Y_1z-16" value="ambiente&lt;br&gt;Produção" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="680" y="480" width="120" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
