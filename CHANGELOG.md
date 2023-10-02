@@ -1,3 +1,12 @@
+# [2.1.0](https://github.com/thiagoguedes99/ci-cd-github-actions/compare/v2.0.0...v2.1.0) (2023-10-02)
+
+
+### Features
+
+* add git flow diagram ([6c1d098](https://github.com/thiagoguedes99/ci-cd-github-actions/commit/6c1d09879fd726490fd0b42fc2c32a7abf931361))
+
+
+
 # [2.0.0](https://github.com/thiagoguedes99/ci-cd-github-actions/compare/v1.0.0...v2.0.0) (2023-10-01)
 
 
